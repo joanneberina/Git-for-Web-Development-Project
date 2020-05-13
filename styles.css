@@ -1,0 +1,67 @@
+body {
+    border: 20px solid #00CED1;
+    font-size: 20px;
+    color: #2F4F4F;
+    margin: 8px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #778899;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header h1:hover {
+    color: #BC8F8F;
+}
+
+.info {
+    background-color: #7FFFD4;
+    padding: 5%;
+}
+
+.info:hover {
+    background-color: #DEB887;
+}
+
+.first-section {
+    color: #00CED1;
+    background-color: #2F4F4F;
+    padding: 10%;
+}
+
+.first-section:hover {
+    background-color: #696969;
+    color: #FFA07A;
+}
+
+.second-section {
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.second-section h2 {
+    text-transform: uppercase;
+}
+
+.second-section p:hover {
+    color: #FF7121;
+}
+
+.second-section h2:hover {
+    text-transform: capitalize;
+    color: #FF7121;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 0;
+}
